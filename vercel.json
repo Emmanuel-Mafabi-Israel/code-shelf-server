@@ -1,6 +1,6 @@
 {
     "functions": {
-      "api/server.js": {
+      "code-shelf-api/server.js": {
         "memory": 1024,
         "includeFiles": "storage.json"
       }
@@ -8,7 +8,7 @@
     "rewrites": [
       {
         "source": "/(.*)",
-        "destination": "api/server.js"
+        "destination": "code-shelf-api/server.js"
       }
     ]
   }

@@ -2,9 +2,9 @@
     "name": "code-shelf-json-server-vercel",
     "version": "1.0.0",
     "description": "CodeShelf JSON server to Vercel",
-    "main": "api/server.js",
+    "main": "code-shelf-api/server.js",
     "scripts": {
-      "start": "node api/server.js"
+      "start": "node code-shelf-api/server.js"
     },
     "dependencies": {
       "json-server": "^0.17.4"
