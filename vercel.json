@@ -8,7 +8,7 @@
     "rewrites": [
       {
         "source": "/(.*)",
-        "destination": "code-shelf-api/server.js"
+        "destination": "api/server.js"
       }
     ]
   }

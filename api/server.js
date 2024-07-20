@@ -18,7 +18,7 @@ const middle_wares = json_server.defaults();
 
 server.use(middle_wares);
 server.use(json_server.rewriter({
-    '/code-shelf-api/*': '/$1',
+    '/api/*': '/$1',
     '/blog/:resource/:id/show': '/:resource/:id'
 }));
 server.use(router);
