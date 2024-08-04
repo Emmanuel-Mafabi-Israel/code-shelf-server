@@ -1,6 +1,6 @@
 /*
     GLORY BE TO GOD,
-    CODE-SHELF API,
+    FLATIRON BANK API,
     Israel Mafabi Emmanuel
 */
 
@@ -24,7 +24,7 @@ server.use(json_server.rewriter({
 server.use(router);
 
 server.listen(3000, function() {
-    console.log("codeshelf log: json-server is running!");
+    console.log("flatiron-bank log: json-server is running!");
 });
 
 module.exports = server;
