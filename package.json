@@ -1,7 +1,7 @@
 {
-    "name": "flat-iron-bank-json-server-vercel",
+    "name": "code-shelf-json-server-vercel",
     "version": "1.0.0",
-    "description": "FlatIronBank JSON server to Vercel",
+    "description": "CodeShelf JSON server to Vercel",
     "main": "api/server.js",
     "scripts": {
       "start": "node api/server.js"
